@@ -2,8 +2,8 @@ package com.example.chatapp.model
 
 class Pesan {
     private var isiPesan: String = ""
-    private var pengirim: String = ""
-    private var penerima: String = ""
+    var pengirim: String = ""
+    var penerima: String = ""
     private var tanggal: String = ""
 
     constructor()

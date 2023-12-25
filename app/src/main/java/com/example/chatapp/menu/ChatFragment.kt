@@ -13,7 +13,7 @@ import com.example.chatapp.model.Tab
 
 class ChatFragment : Fragment() {
 
-    private val list: MutableList<Tab> = ArrayList()
+    private var list: MutableList<Tab> = ArrayList()
     private lateinit var recyclerView: RecyclerView
 
     override fun onCreateView(
